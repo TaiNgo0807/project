@@ -1,0 +1,50 @@
+#search-bar:focus {
+  outline: none;
+  border: 1px solid green;
+}
+.contact-form button {
+  background: #2f472f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+footer {
+  background: #2f472f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.contact-info {
+  margin-bottom: 20px;
+}
+#product-list {
+  display: flex;
+  flex: 1;
+}
+.card-img-top {
+  margin-bottom: auto;
+  flex-shrink: 0;
+}
+.card-body {
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  width: 300px;
+}
+#lienhe {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.contact-form {
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
