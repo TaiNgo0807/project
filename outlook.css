@@ -21,10 +21,6 @@ footer {
 .contact-info {
   margin-bottom: 20px;
 }
-#product-list {
-  display: flex;
-  flex: 1;
-}
 .card-img-top {
   margin-bottom: auto;
   flex-shrink: 0;
@@ -32,19 +28,34 @@ footer {
 .card-body {
   word-break: break-all;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-word;
-  width: 300px;
 }
-#lienhe {
+#top-body {
   display: flex;
-  justify-content: center;
-  flex: 1;
+  margin-top: 30px;
 }
-.contact-form {
-  margin-bottom: 30px;
-  margin-right: 20px;
+#form-contact {
+  text-align: center;
+  background-color: rgb(138, 185, 226);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.card {
+  border-color: rgb(16, 193, 78);
+  border-width: 2px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 15px;
+  margin: 20px;
+}
+.card-footer {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: green;
+  color: white;
+  text-align: center;
 }
